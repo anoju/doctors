@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+@import url('lib/animated.css');
+@import url('lib/jquery-ui-1.10.4.custom.min.css');
+@import url('lib/swiper.css');
+@import url('lib/slick.css');
+@import url('lib/daterangepicker.css');
+@import url('lib/jquery.mCustomScrollbar.css');
+
+
+/* ==============================
+ * header
+ * ============================== */
+#headerWrap{position:fixed;top:0;padding:15px 0 14px;left:0;width:100%;z-index:10;-webkit-transition:1s;transition:1s;}
+#headerWrap.on{background:rgba(0,0,0,0.3);}
+#headerWrap .innerBox{border-bottom:1px solid rgba(255,255,255,0.1);}
+#headerWrap .logo a{display:block;width:80px;height:21px;margin:0 auto;font-size:0;color:transparent;background:url(../images/common/logo.png) no-repeat center center;background-size:contain;}
+.headerTalk{position:absolute;left:20px;top:16px;}
+.headerTalk a{display:block;width:23px;height:18px;font-size:0;color:transparent;background:url(../images/common/headerTalk.png) no-repeat center center;background-size:contain;}
+.gnbBtn{position:absolute;position:absolute;right:17px;top:16px;}
+.gnbBtn a{display:block;font-size:0;color:transparent;padding:5px 3px;overflow:hidden;}
+.gnbBtn a:before,.gnbBtn a:after{content:'';clear:both;float:right;display:block;width:15px;height:2px;background:#fff;-webkit-transition:width 1s;transition:width 1s;}
+.gnbBtn a:after{width:10px;margin-top:4px;}
+.gnbBtn.on a:before{width:10px;}
+.gnbBtn.on a:after{width:15px;}
+
+#container{position:relative;}
+/* ==============================
+ * footer
+ * ============================== */
+#footerWrap{position:relative;padding:25px 20px;text-align:center;}
+#footerWrap .innerBox{padding:80px 0;}
+.btnTop{width:30px;margin:0 auto;}
+.btnTop a{position:relative;display:block;width:30px;height:30px;font-size:0;color:transparent;background:#000;}
+.btnTop a:before{content:'';display:block;width:8px;height:14px;position:absolute;left:11px;top:8px;background:url(../images/common/btnTop.png) no-repeat center center;background-size:100% 100%;}
+.btnTop.on a:before{-webkit-animation:bounce 1.5s;animation:bounce 1.5s;} 
+.footMenu{font-size:0;margin-top:22px;}
+.footMenu > li{position:relative;display:inline-block;padding:0 12px;line-height:1;}
+.footMenu > li + li:before{content:'';display:block;position:absolute;left:0;top:5px;width:1px;height:6px;background:#e2e2e2;}
+.footMenu > li > a{display:block;font-weight:200;font-size:12px;}
+.footMenu > li > a:hover{font-weight:450;}
+.footLink{margin:15px -10px 0;}
+.footLink:after{content:'';display:block;clear:both;}
+.footLink > li{float:left;width:50%;padding:10px;}
+.footLink > li > a{display:block;font-weight:200;font-size:12px;border:1px solid #ebebeb;line-height:33px;-webkit-transition:0.5s;transition:0.5s;}
+.footLink > li > a:hover,
+.footLink > li.active > a{color:#fff;background:#555555;border-color:#555555;}
+.footInfo{border-bottom:1px solid #f0f0f0;padding:5px 0 15px;margin-top:15px;}
+.footInfo strong{display:block;font-size:12px;margin-bottom:15px;}
+.footInfo span{color:#6d6d6d;font-size:11px;}
+.footInfoList{font-size:0;margin-top:25px;}
+.footInfoList > li{position:relative;display:inline-block;padding:2px 8px;line-height:1;font-weight:200;letter-spacing:-1px;font-size:11px;}
+.footInfoList > li:before{content:'';display:block;position:absolute;left:0;top:5px;width:1px;height:6px;background:#e2e2e2;}
+.footInfoList > li:nth-child(odd):before{display:none;}
+.footInfoList > li > span{color:#999999;margin-left:3px;}
+.footCopy{font-size:10px;font-weight:300;opacity:0.4;margin-top:15px;}
+.footSns{font-size:0;margin-top:30px;}
+.footSns > li{display:inline-block;width:20px;}
+.footSns > li + li{margin-left:6px;}
+.footSns > li > a{display:block;height:20px;color:transparent;background-size:100% auto !important;}
+.footSns .is{background:url(../images/common/foot_sns_is.png) no-repeat center center;}
+.footSns .yt{background:url(../images/common/foot_sns_yt.png) no-repeat center center;}
+.footSns .fb{background:url(../images/common/foot_sns_fb.png) no-repeat center center;}
+
+@media screen and (max-width:640px) {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

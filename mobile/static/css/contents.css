@@ -1,0 +1,13 @@
+@charset "utf-8";
+@import url('main.css');
+							
+/* ==============================
+ * common - 컨텐츠 공통
+ * ============================== */
+body.hidden {overflow: hidden;}
+
+
+/* 모바일 */
+@media screen and (max-width:767px){
+
+}
